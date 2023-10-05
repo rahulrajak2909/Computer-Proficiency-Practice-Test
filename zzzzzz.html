@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="vieport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+    <link rel="stylesheet" href="ahome.css">
+</head>
+<body> 
+  <div class="div">
+       <div class="name"><ion-icon name="logo-buffer"></ion-icon> Computer Proficiency Practice Test </div>
+        <div class="log"><ion-icon  class="ico" name="log-out-outline"></ion-icon>   </div>
+      <div class="log_out">  <a href="alogin.html">  Log Out </a></div>
+    </div>
+
+<div>
+  <div class="student_table" >
+  <a href="admin_stu_info.php" style='text-decoration: none; color: black'> <h1>Student</h1>
+   <?php
+ $dbhost = 'localhost';
+ $dbuser = 'root';
+ $dbpass = '';
+ $db = 'cpct';
+
+
+ $conn = mysqli_connect($dbhost, $dbuser, '', $db);
+
+
+    $query = "SELECT Sno from registration ";
+    $data = mysqli_query($conn , $query);
+
+  $row =  mysqli_num_rows($data);
+
+  echo '<h1> '.$row. '</h1>';
+    
+   ?></a>
+   <h1></h1>
+  </div>
+  <div class="course_table" >
+  <a href="admin_course.php" style='text-decoration: none; color: black'>  <h1>Courses</h1>
+    <?php
+ $dbhost = 'localhost';
+ $dbuser = 'root';
+ $dbpass = '';
+ $db = 'cpct';
+
+
+ $conn = mysqli_connect($dbhost, $dbuser, '', $db);
+
+
+    $query = "SELECT cname from course_add ";
+    $data = mysqli_query($conn , $query);
+
+  $row =  mysqli_num_rows($data);
+
+  echo '<h1> '.$row. '</h1>';
+    
+   ?></a>
+    <h1></h1>
+  </div>
+  <div class="feedback_table">
+  <a href="admin_feedback.php" style='text-decoration: none; color: black'>  <h1>Feedback</h1>
+    <?php
+ $dbhost = 'localhost';
+ $dbuser = 'root';
+ $dbpass = '';
+ $db = 'cpct';
+
+
+ $conn = mysqli_connect($dbhost, $dbuser, '', $db);
+
+
+    $query = "SELECT fno from feedback ";
+    $data = mysqli_query($conn , $query);
+
+  $row =  mysqli_num_rows($data);
+
+  echo '<h1> '.$row. '</h1>';
+    
+   ?> </a>
+    
+  </div>
+</div>
+
+       
+<section class="section">
+<form class="form">
+    <div class="home">
+      <div class="add">  <ion-icon class="icon" name="person-circle-outline"></ion-icon><div class="admin"> ADMIN  HOME </div></div>
+      <div class="main">
+      <div class="hom"> <ion-icon name="home-outline"></ion-icon>  
+       <a href="ahome.php"> HOME</a>
+      </div> 
+      <div class="student"><ion-icon name="people-outline"></ion-icon>
+       <a href="admin_stu_info.php"> Student Info.</a>
+     </div>
+     <div class="course"><ion-icon name="book-outline"></ion-icon>
+       <a href="admin_course.php"> Courses </a>
+     </div>
+     <div class="top"><ion-icon name="ribbon-outline"></ion-icon>
+     <a href="admin_top.html">   Top-10 </a>
+     </div>
+     <div class="result"><ion-icon name="school-outline"></ion-icon>
+       <a href="admin_result.html"> Result </a>
+     </div>
+     <div class="feedback"><ion-icon name="document-text-outline"></ion-icon>
+       <a href="admin_feedback.php"> Feedback </a>
+    </div>
+      <div class="contect"><ion-icon name="help-circle-outline"></ion-icon>
+      <a href="admin_contect.html"> Contact us</a>
+    </div>
+     </div>
+   </div>
+</form>
+</section> 
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

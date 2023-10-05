@@ -1,0 +1,194 @@
+
+.name{
+    margin-left: 350px;
+font-size: 1.3rem;
+margin-top: 18px;
+}
+.log{
+    margin-left: 50px;
+    margin-bottom: -20px;
+   
+}
+.ico{
+    font-size: 1.5rem;
+}
+.log_out{
+    margin-left: 1455px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+ 
+}
+.log_out a{
+    text-decoration: none;
+color: white;
+   
+}
+.icon{
+   font-size: 1.5rem;
+}
+
+.log{
+margin-left: 1420px;
+margin-top: -20px;
+
+
+
+}
+
+
+.admin{
+    margin-top: -25px;
+    margin-left: 35px;
+}
+
+.div{
+ border-bottom: 2px solid black;
+margin-top: -15px;
+background-color: rgb(214, 72, 72);
+border-top: 2px solid black;
+color: white;
+margin-right: -8px;
+ 
+ 
+
+}
+.form{
+   height: 100%;
+    flex-direction: column;
+    width: 33vh;
+    font-size: 1.2rem;
+    border: 2px;
+    border-radius: 2px;
+  color: white;
+ align-items: self-start;
+ background-color: rgb(59, 59, 59);
+ padding: 2rem 2rem 2rem 2rem;
+}
+.add{
+    margin-top: -20px;
+}
+.main{
+    margin-top: 100px;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+
+}
+.hom{
+    margin-bottom: 35px;
+}
+.hom a{
+    text-decoration: none;
+    color: white;
+}
+.student{
+    margin-bottom: 35px;
+}
+.student a{
+    text-decoration: none;
+    color: white;
+}
+ .course{
+    margin-bottom: 35px;
+ }
+ .course a {
+    text-decoration: none;
+    color: white;
+ }
+ .top{
+    margin-bottom: 35px;
+ }
+ .top a {
+    text-decoration: none;
+    color: white;
+ }
+ .result{
+    margin-bottom: 35px;
+ }
+ .result a {
+    text-decoration: none;
+    color: white;
+ }
+ .feedback{
+    margin-bottom: 35px;
+ }
+ .feedback a{
+    text-decoration: none;
+    color: white;
+ }
+ .contect a{
+text-decoration: none;
+color: white;
+ }
+
+
+ .student_table{
+    margin-left: 480px;
+    margin-top: 60px;
+    padding: 1rem 2rem 1rem 2.1rem ;
+    margin-right: 800px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(144, 163, 233) );
+ }
+ .student_table h1{
+    text-align: center;
+   
+ }
+ .course_table{
+    margin-left: 830px;
+    margin-top: -175px;
+    padding: 1rem 2rem 1rem 2.1rem ;
+    margin-right: 450px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(222, 153, 193) );
+ }
+ .course_table h1{
+    text-align: center;
+ }
+.feedback_table{
+    margin-left: 1200px;
+    margin-top: -175px;
+    padding: 1.1rem 2rem 1rem 2.1rem ;
+    margin-right: 90px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(219, 156, 137) );
+
+}
+.feedback_table h1{
+    text-align: center;
+}
+
+
+.feeds{
+
+    margin-left: 720px;
+    margin-top: 30px;
+    font-size: 3rem ;
+    text-decoration: underline;
+}
+.stable{
+
+    margin-left: 480px;
+    margin-top: 20px;
+    margin-right: 320px;
+    width: 900px;
+}
+.sno{
+    width: 40px;
+}
+.namee{
+
+    width: 700px;
+}
+
+.date{
+
+    width: 3000px;
+}
+.fed{
+
+    width: 4000px;
+}

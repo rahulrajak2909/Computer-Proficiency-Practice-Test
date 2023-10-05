@@ -1,0 +1,120 @@
+body{
+    /* background: linear-gradient(rgb(245, 253, 255) , skyblue); */
+background-image: url(phisee.avif);
+position: fixed;
+    height: 98vh;
+    background-size: 100%;
+   
+   
+}
+.new{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 110px;
+    flex-direction: column;
+margin-left: -95px;
+    
+}
+.student{
+    height: 50vh;
+    width: 100vh;
+    font-size: 1.4rem;
+    padding: 1rem 0rem 1rem 5rem;
+    margin-top: -25px;
+  background-color: transparent;
+   border-radius: 30px;
+   border-color: transparent;
+   /* background: linear-gradient(rgb(245, 253, 255), skyblue ); */
+   /* background-color: #0792c1 ; */
+   backdrop-filter: blur(8px);
+   border: 1px solid black;
+
+   box-shadow: 25px 25px 25px #0e506cd4;
+   margin-right: -1000px;
+  
+
+}
+.newstudent{
+  margin-left: 200px;
+  margin-top: -15px;
+}
+
+.send-otp{
+   font-size: 1rem;
+   padding: 4px 10px;
+   cursor: pointer;
+   border-radius: 10px;
+   font-weight: 600px;
+   transition: 0.2s ease-in-out;
+
+}
+.send-otp:hover{
+  color: white;
+  background-color: rgb(3, 97, 81);
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1rem 2rem;
+  
+
+}
+.cppt img{
+  width: 17rem;
+  color: white;
+}
+.mits{
+  width: 8rem;
+}
+.head{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -23px;
+  color: darkblue;
+  /* color: rgb(221, 220, 220); */
+}
+.head h2{
+  margin-top: -5px;
+  color:rgb(10, 57, 104);
+  /* color: rgb(194, 188, 188); */
+}
+.phone{
+width: 165px;
+margin-left: 47px;
+height: 1.7rem;
+}
+.user{
+  width: 167px;
+}
+.full{
+  margin-left: 25px;
+  margin-right: 80px;
+  height: 1.7rem;
+  ;
+}
+.email{
+  margin-left: 65px;
+  margin-right: 80px;
+  height: 1.7rem;
+}
+.pass{
+  margin-left: 32px;
+  margin-right: 80px;
+  height: 1.7rem;
+}
+.dob{
+width: 168px;
+margin-left: 94px;
+height: 1.7rem;
+}
+.user{
+  margin-left: 80px;
+}
+.cpass{
+  margin-left: 10px;
+  height: 1.7rem;
+}
+

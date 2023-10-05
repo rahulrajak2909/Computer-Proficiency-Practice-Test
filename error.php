@@ -1,0 +1,6 @@
+<?php 
+
+        $errors = []; 
+        $inputs = [];
+
+?>
